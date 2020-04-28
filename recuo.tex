@@ -1,0 +1,41 @@
+\documentclass{memoir}
+
+\DoubleSpacing
+\begin{document}
+
+
+Por aqui tem texto\ldots\ Estou evitando acentos neste texto.  Uma
+frase bem longa que ocupe mais de uma linha. Uma frase bem longa que
+ocupe mais de uma linha. Uma frase bem longa que ocupe mais de uma
+linha.
+
+
+\begin{SingleSpace}
+\begin{adjustwidth}{0cm}{4cm}
+Aqui fica o texto que estou citando. Preciso deixar ele mais ou menos
+longo, para que possamos ver que tipo de alinhamento ele vai dar aqui.
+Um pouco mais de texto, quem sabe chegamos a ter quatro linhas.
+\end{adjustwidth}
+\end{SingleSpace}
+
+Note que
+\begin{itemize}
+\item existe uma linha em branco entre o paragrafo e a cita\c c\~ao
+\item eu uso o ambiente SingleSpace (cuidado com mai\'usculas e min\'usculas)
+\item os parametros de adjustwidth s\~ao, respectivamente, o recuo \`a esquerda e o recuo  \`a direita.
+\end{itemize}
+
+Aqui est\'a um outro exemplo, em um par\'agrafo entre o texto e a cita\c c\~ao:
+\begin{SingleSpace}
+\begin{adjustwidth}{4cm}{0cm}
+It's supercalifragilisticexpihalidoucious, even though the sound of it
+is something quite atrocious.  (If you say it loud enough you'll
+always sound precocious!) It's supercalifragilisticexpihalidoucious!
+\end{adjustwidth}
+\end{SingleSpace}
+
+Vai aqui um pouco mais de texto para situar o o que foi citado acima.
+Coloquei em um novo par\'agrafo. Texto, e mais texto, e mais texto, e
+mais texto, e mais texto, e mais texto, e mais texto, e mais texto, e
+mais texto, e assim por diante.
+\end{document}
